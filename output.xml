@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230129 13:58:03.379" rpa="false" schemaversion="3">
+<suite id="s1" name="Test2" source="D:\Kerja\Belajar Robot Framework\Test QA Sevima\test2.robot">
+<test id="s1-t1" name="Negative Case Input Huruf dan Submit" line="6">
+<kw name="Negative Input Text" library="steps">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_test}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230129 13:58:03.526" level="INFO">Opening browser 'chrome' to base url 'https://qa.putraprima.id/'.</msg>
+<status status="PASS" starttime="20230129 13:58:03.526" endtime="20230129 14:00:26.498"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<msg timestamp="20230129 14:00:26.501" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+<msg timestamp="20230129 14:00:26.504" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+<status status="FAIL" starttime="20230129 14:00:26.498" endtime="20230129 14:00:26.546"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>id:input</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230129 14:00:26.546" endtime="20230129 14:00:26.546"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:input</arg>
+<arg>tiga</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230129 14:00:26.546" endtime="20230129 14:00:26.546"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:hitung</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230129 14:00:26.546" endtime="20230129 14:00:26.546"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230129 14:00:26.546" endtime="20230129 14:00:26.546"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230129 14:00:26.546" endtime="20230129 14:00:26.546"/>
+</kw>
+<status status="FAIL" starttime="20230129 13:58:03.526" endtime="20230129 14:00:26.546"/>
+</kw>
+<status status="FAIL" starttime="20230129 13:58:03.525" endtime="20230129 14:00:26.547">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</status>
+</test>
+<test id="s1-t2" name="Negative Case Input Simbol dan Angka" line="9">
+<kw name="Negative Input Simbol" library="steps">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_test}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230129 14:00:26.549" level="INFO">Opening browser 'chrome' to base url 'https://qa.putraprima.id/'.</msg>
+<status status="PASS" starttime="20230129 14:00:26.549" endtime="20230129 14:02:32.624"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<msg timestamp="20230129 14:02:32.627" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+<msg timestamp="20230129 14:02:32.629" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+<status status="FAIL" starttime="20230129 14:02:32.624" endtime="20230129 14:02:32.630"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>id:input</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20230129 14:02:32.631" endtime="20230129 14:02:32.631"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:input</arg>
+<arg>!3</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230129 14:02:32.631" endtime="20230129 14:02:32.631"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id:hitung</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230129 14:02:32.631" endtime="20230129 14:02:32.631"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230129 14:02:32.631" endtime="20230129 14:02:32.631"/>
+</kw>
+<status status="FAIL" starttime="20230129 14:00:26.549" endtime="20230129 14:02:32.631"/>
+</kw>
+<status status="FAIL" starttime="20230129 14:00:26.548" endtime="20230129 14:02:32.632">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</status>
+</test>
+<status status="FAIL" starttime="20230129 13:58:03.380" endtime="20230129 14:02:32.636"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Test2">Test2</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230129 14:00:26.501" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+<msg timestamp="20230129 14:02:32.627" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00BCF243]
+	(No symbol) [0x00B57FD1]
+	(No symbol) [0x00A4D04D]
+	(No symbol) [0x00A32D7A]
+	(No symbol) [0x00A9BE7B]
+	(No symbol) [0x00AAC196]
+	(No symbol) [0x00A98386]
+	(No symbol) [0x00A7163C]
+	(No symbol) [0x00A7269D]
+	GetHandleVerifier [0x00E69A22+2655074]
+	GetHandleVerifier [0x00E5CA24+2601828]
+	GetHandleVerifier [0x00C78C0A+619850]
+	GetHandleVerifier [0x00C77830+614768]
+	(No symbol) [0x00B605FC]
+	(No symbol) [0x00B65968]
+	(No symbol) [0x00B65A55]
+	(No symbol) [0x00B7051B]
+	BaseThreadInitThunk [0x75D16BD9+25]
+	RtlGetFullPathName_UEx [0x77E08FD2+1218]
+	RtlGetFullPathName_UEx [0x77E08F9D+1165]
+</msg>
+</errors>
+</robot>
